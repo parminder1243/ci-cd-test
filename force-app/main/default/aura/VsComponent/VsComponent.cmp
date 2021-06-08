@@ -1,0 +1,4 @@
+<aura:component>
+<aura:attribute name="alst" type="String" default="hello"/>
+<lightning:button label="click" value="click" onclick="{!c.doit}"/>
+</aura:component>	
